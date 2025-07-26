@@ -99,7 +99,7 @@ The analysis reveals a clear hierarchy of customer priorities and pain points in
 #### Thematic Distribution
 Physical factors are the most frequently discussed, indicating that operational and logistical elements are top-of-mind for customers.
 
-![Frequency Distribution of Thematic Categories](https://i.imgur.com/K72x3E7.png)
+![Frequency Distribution of Thematic Categories](results/charts/Figure 1 Frequency Distribution of Thematic Categories on Reddit.png)
 *Chart 1: Frequency Distribution of Thematic Categories on Reddit.*
 
 #### Sentiment Polarity Across Themes
