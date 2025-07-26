@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+bertopic==0.16.0
+transformers
+sentence-transformers
+accelerate
+matplotlib
+seaborn
+scipy
