@@ -94,19 +94,21 @@ The analysis is divided into two main notebooks, which should be run sequentiall
         3.  **Descriptive Statistics:** To provide further insights into post length and sentiment scores per category.
 
 ## 📊 Key Findings
+
 The analysis reveals a clear hierarchy of customer priorities and pain points in the global retail sector.
 
 #### Thematic Distribution
-Physical factors are the most frequently discussed, indicating that operational and logistical elements are top-of-mind for customers.
+[cite_start]Physical factors are the most frequently discussed, indicating that operational and logistical elements are top-of-mind for customers[cite: 7, 126].
 
-![Frequency Distribution of Thematic Categories](results/charts/Figure 1 Frequency Distribution of Thematic Categories on Reddit.png)
-*Chart 1: Frequency Distribution of Thematic Categories on Reddit.*
+![Frequency Distribution of Thematic Categories](./results/charts/Figure%201%20Frequency%20Distribution%20of%20Thematic%20Categories%20on%20Reddit.png)
+[cite_start]*Figure 1: Frequency Distribution of Thematic Categories on Reddit.* [cite: 131]
 
 #### Sentiment Polarity Across Themes
-Social factors (customer service) are the primary source of customer friction, showing the highest proportion of negative sentiment. In contrast, Cognitive factors (price & value) are associated with the most positive sentiment.
+[cite_start]Social factors (customer service) are the primary source of customer friction, showing the highest proportion of negative sentiment[cite: 8]. [cite_start]In contrast, Cognitive factors (price & value) are associated with the most positive sentiment[cite: 9].
 
-![Percentage Distribution of Sentiment within Each Category](https://i.imgur.com/eE2k8Fq.png)
-*Chart 2: Percentage Distribution of Sentiment within Each Thematic Category.*
+![Percentage Distribution of Sentiment within Each Thematic Category](./results/charts/Figure%202%20Percentage%20Distribution%20of%20Sentiment%20within%20Each%20Thematic%20Category.png)
+[cite_start]*Figure 2: Percentage Distribution of Sentiment within Each Thematic Category.* [cite: 138]
+
 
 ## 📄 Citation
 If you use the code or findings from this research in your work, please cite our paper:
