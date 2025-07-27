@@ -22,8 +22,7 @@ Global-Retail-CX-Analysis/
 │   └── placeholder.txt         # Placeholder for the dataset (see Data section)
 │
 ├── 📂 notebooks/
-│   ├── 01_Main_Analysis.ipynb  # Jupyter notebook for data preprocessing, topic modeling, and sentiment analysis.
-│   └── 02_Statistical_Analysis.ipynb # Jupyter notebook for statistical validation (Chi-Square, ANOVA).
+│   ├── Main.ipynb  # Jupyter notebook for data preprocessing, topic modeling, sentiment analysis, and statistical validation (Chi-Square, ANOVA).
 │
 ├── 📂 results/
 │   └── .gitkeep                # This directory will store generated charts and tables.
@@ -79,19 +78,16 @@ To run the notebooks, you will need to place your own dataset with a similar str
 
 The analysis is divided into two main notebooks, which should be run sequentially.
 
-1.  **`notebooks/01_Main_Analysis.ipynb`**:
+1.  **`notebooks/Main.ipynb`**:
     * This notebook handles the entire NLP pipeline:
         1.  Loads and preprocesses the raw text data.
         2.  Performs thematic discovery using **BERTopic** to identify latent topics.
         3.  Conducts sentiment analysis on each post using a fine-tuned **RoBERTa** model.
         4.  Maps the discovered topics to the theoretical framework (Physical, Cognitive, Social).
         5.  Generates the final visualizations and summary tables presented in the paper.
-
-2.  **`notebooks/02_Statistical_Analysis.ipynb`**:
-    * This notebook validates the findings from the main analysis using:
-        1.  **Chi-Square Test:** To confirm the statistical significance of the relationship between thematic categories and sentiment polarity.
-        2.  **One-Way ANOVA:** To assess whether the average sentiment scores vary significantly across the three themes.
-        3.  **Descriptive Statistics:** To provide further insights into post length and sentiment scores per category.
+        6.  **Chi-Square Test:** To confirm the statistical significance of the relationship between thematic categories and sentiment polarity.
+        7.  **One-Way ANOVA:** To assess whether the average sentiment scores vary significantly across the three themes.
+        8.  **Descriptive Statistics:** To provide further insights into post length and sentiment scores per category.
 
 ## 📊 Key Findings
 
