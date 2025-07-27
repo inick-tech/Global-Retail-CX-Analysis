@@ -22,7 +22,7 @@ Global-Retail-CX-Analysis/
 │   └── placeholder.txt         # Placeholder for the dataset (see Data section)
 │
 ├── 📂 notebooks/
-│   ├── Main.ipynb  # Jupyter notebook for data preprocessing, topic modeling, sentiment analysis, and statistical validation (Chi-Square, ANOVA).
+│   └── Main.ipynb  # Jupyter notebook for data preprocessing, topic modeling, sentiment analysis, and statistical validation (Chi-Square, ANOVA).
 │
 ├── 📂 results/
 │   └── .gitkeep                # This directory will store generated charts and tables.
